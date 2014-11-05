@@ -1,5 +1,8 @@
 # iron-router-progress
 
+I forked this package from Multiply for experimental reasons
+It's compatible with iron:router@1.0.0
+
 Implements a simple progress bar, when loading different routes.
 Example running at: https://iron-router-progress.meteor.com/
 

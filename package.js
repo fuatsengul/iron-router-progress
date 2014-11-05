@@ -1,7 +1,7 @@
 Package.describe({
-	version : '0.9.2',
-	summary : 'Progressbar for iron:router',
-	git     : 'https://github.com/Multiply/iron-router-progress.git'
+	version : '1.0.0',
+	summary : 'Progressbar for iron:router, forked from Multiply',
+	git     : 'https://github.com/fuatsengul/iron-router-progress'
 });
 
 Package.onUse(function (api) {
@@ -10,7 +10,7 @@ Package.onUse(function (api) {
 		'less@1.0.0',
 		'jquery@1.0.0',
 		'underscore@1.0.0',
-		'iron:router@0.9.1'
+		'iron:router@1.0.0'
 	], 'client');
 
 	api.imply('iron:router');
